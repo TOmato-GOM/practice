@@ -1,0 +1,95 @@
+body {
+  background-color: #333;
+  margin: 0;
+}
+li:hover {
+  background-color: lightcoral;
+}
+a:visited {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.header-box {
+  background-color: lightslategray;
+}
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+}
+.bar-item {
+  color: white;
+  list-style: none;
+  padding: 15px;
+}
+.bar-index {
+  list-style: none;
+  color: white;
+}
+input {
+  outline: none;
+  width: 100px;
+}
+.link-bar {
+  margin-left: auto;
+  margin-top: 4px;
+}
+label {
+  width: 100px;
+  text-align: left;
+}
+ul > button {
+  margin-top: 14px;
+  height: 25px;
+}
+.exam {
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+}
+h1,
+h3,
+p {
+  margin: 20px;
+  padding: 10px;
+}
+h3,
+p {
+  color: lightgray;
+}
+#mailto {
+  color: gray;
+}
+.btn1 {
+  margin: 0 auto;
+  width: 50px;
+  height: 30px;
+  border: solid black 1px;
+  text-align: center;
+  line-height: 33px;
+  background-color: white;
+  transition-duration: 1s;
+}
+.btn1:hover {
+  border-radius: 10px;
+}
+.loginbox > a:visited {
+  color: black;
+}
+li > .login-link {
+  color: black;
+}
+#login {
+  margin-left: auto;
+  background-color: #1bbc9b;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.info {
+  text-align: center;
+  margin-top: 20px;
+}
